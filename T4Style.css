@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.categories, .bestsellers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.category, .product {
+    text-align: center;
+    margin: 20px;
+}
+
+.category img, .product img {
+    width: 150px;
+    height: auto;
+}
+
+.product p {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.price {
+    margin-top: 5px;
+    font-weight: bold;
+}
